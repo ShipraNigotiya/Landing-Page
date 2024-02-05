@@ -1,0 +1,116 @@
+*{
+    padding: 0;font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    padding: 25px;
+    margin: 5px;
+    background-color: rgb(196, 193, 193);
+    
+}
+
+nav{
+    width: 100%;
+    height: 80px; 
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(66, 5, 85);
+}
+
+.logo{
+    color: rgb(132, 135, 131);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 4px solid teal;
+    border-radius: 30px;
+}
+
+.logo span{
+    color: red;
+}
+
+ul{
+    display: flex;
+   
+}
+
+ul li{
+   list-style: none;
+    margin-inline: 15px;
+    font-weight: bold;
+    
+}
+
+.main{
+    justify-content: space-between;
+    display: flex;
+    color: rgb(174, 15, 156);
+}
+
+.main .first{
+       font-size: 30px;
+       margin-left: 30px;
+       display: flex;
+}
+
+.main .first .leftSection{
+width: 50%;
+}
+
+
+.main .first .leftSection  p{
+    color: black;
+    letter-spacing: none;
+    font-style: italic;
+    margin-top: 30px;
+    line-height: 0.5em;
+}
+
+.main .first .leftSection h1{
+    line-height: 1.5em;
+
+}
+
+.main .first .leftSection h1 span{
+    color: rgb(114, 163, 165);
+    
+}
+
+.main .first .leftSection h3{
+    line-height: 1.25em;
+    font-size: 1.5em;
+    color: rgb(51, 98, 4);
+    letter-spacing: 2px;
+  
+}
+
+.main .first .leftSection button{
+    background-color: rgb(180, 16, 16);
+    color: beige;
+    width:200px;
+    height: 30px;
+    border-radius: 40px ;
+    font-size: medium;
+    margin-top: 35px;
+    text-decoration: none;
+     cursor: pointer;
+}
+
+.main .first .leftSection button:hover{
+    background-color: rgb(141, 106, 41);
+}
+
+
+.main .first .rightSection img{
+     width: 95%;
+     height:100%;
+    
+}
